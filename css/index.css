@@ -1,0 +1,52 @@
+* { 
+	font-family: arial;
+	font-size: 12px;
+	margin: 0px; 
+	padding 0px; 
+}
+form {
+	margin-top: 5px;
+}
+#wrapper {
+	width: 320px;
+	margin: 0px auto;
+}
+#content {
+	text-align: center;
+	margin: 0px auto;
+	padding: 5px;
+}
+#field {
+	margin: 0px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #AAA;
+	border-radius: 10px;
+}
+#output {
+	margin: 5px 0px 5px 0px;
+	padding: 2px;
+    text-align: center;
+	background-color: #CCCCCC;
+	border-radius: 5px;
+}
+.name {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+.control {
+    display: inline-block;
+    width: 95px;
+	height: 20px;
+	vertical-align: absmiddle;
+}
+.info {
+    display: inline-block;
+    width: 97px;
+    text-align: center;
+	border: 1px solid #AAA;
+}

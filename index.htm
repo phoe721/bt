@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>BT Client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="content">
+		<!-- Control Panel -->
+		<button type="button" id="startRtorrent">Start</button>
+		<button type="button" id="stopRtorrent">Stop</button>
+		<button type="button" id="refresh">Refresh</button>
+		<div id="field"></div>
+		
+		<!-- Upload Field -->
+		<form id="form">
+			<input type="file" id="file" name="file">
+			<input type="button" name="upload" id="upload" value="Upload">
+		</form>
+		<div id="output"></div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
