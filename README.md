@@ -1,2 +1,2 @@
-# bt
+# Rtorrent
 BT Client
