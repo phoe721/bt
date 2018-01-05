@@ -1,5 +1,5 @@
 <?php
-define('LOG_FILE', '/var/www/html/phoe721.com/project/bt/log/bt.log');
+define('LOG_FILE', '/var/www/html/phoe721.com/project/rtorrent/log/rtorrent.log');
 
 class debugger {
 	// Debug: 0 - False, 1 - True
