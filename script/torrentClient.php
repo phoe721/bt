@@ -4,7 +4,7 @@ require_once("sshConsole.php");
 class torrentClient {
     private $console;
     private $user = "aaron";
-    private $password = "revive";
+    private $password = "c7w2l181";
     private $remoteHost = "localhost";
     private $port = 22;
 	private $torrentDir = "/home/aaron/bt/watch/start/";
