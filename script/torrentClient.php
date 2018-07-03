@@ -8,7 +8,7 @@ class torrentClient {
     private $remoteHost = "localhost";
     private $port = 22;
 	private $torrentDir = "/home/aaron/bt/watch/start/";
-	private $uploadDir = "/var/www/html/phoe721.com/project/rtorrent/upload/";
+	private $uploadDir = "/var/www/phoe721.com/project/rtorrent/upload/";
 	private $debugger;
 
     public function __construct() {
